@@ -1,8 +1,60 @@
+@font-face {
+  font-family: "Satoshi";
+  src: url("./fonts/Satoshi-Variable.ttf");
+}
+
+@font-face {
+  font-family: "Christmas";
+  src: url("./fonts/Waving_at_Christmas.ttf");
+}
+
+@font-face {
+  font-family: "Cauchemard";
+  src: url("./fonts/ZAMRUDS.ttf");
+}
+
+@font-face {
+  font-family: "Listenbourg";
+  src: url("./fonts/PlayfairDisplay-VariableFont_wght.ttf");
+}
+
+$font : "Satoshi";
+$big : 48px;
+$mid : 32px;
+$lit : 24px;
+$text-color1 : #07312F;
+$text-color2 : #9EB3B1;
+$color1 : #157067;
+$color2 : #F2F9F9;
+$color3 : #07312F;
+$bg : #fff;
+$big-radius : 32px;
+$mid-radius : 24px;
+$lit-radius : 12px;
+$weight : 500;
+$big-padding : 64px;
+$mid-padding : 32px;
+$lit-padding : 16px;
+$lg-container : 1200px;
+$container : 600px;
+$big-margin : 32px;
+$mid-margin : 24px;
+$lit-margin : 12px;
+$absolute : 64px;
+$max-width : calc(100% - 128px);
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Satoshi";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-weight: $weight;
+  color: $text-color1;
 }
+
+*{
+  outline: none;
+}
+
+
+

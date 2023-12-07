@@ -1,0 +1,50 @@
+@import "./index.scss";
+
+p{
+    font-size: $lit;
+    margin: 0;
+    font-weight: $weight;
+}
+
+h2{
+    font-size: $mid;
+    margin: 0;
+    font-weight: $weight;
+}
+
+h1{
+    font-size: $big;
+    margin: 0;
+    font-weight: calc($weight + 100);
+}
+
+button{
+    background-color: $color2;
+    border-radius: $big-radius;
+    padding: $big-padding;
+    font-size: $lit;
+    border: 0;
+    color: $text-color1;
+}
+
+input{
+    background-color: $color2;
+    border-radius: $big-radius;
+    padding: $big-padding;
+    font-size: $lit;
+    border: 0;
+    color: $text-color1;
+}
+
+.lg-container{
+    width: $lg-container;
+    max-width : $max-width;
+    margin: 0 auto;
+}
+
+.container{
+    width: $container;
+    max-width : $max-width;
+    margin: 0 auto;
+}
+

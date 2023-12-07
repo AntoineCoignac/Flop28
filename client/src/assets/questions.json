@@ -1,0 +1,458 @@
+[
+    {
+        "question": "Félicitations, en tant que grand chef d'État, envisagez-vous de boycotter la FLOP28 pour marquer votre désaccord ?",
+        "responses": [
+            {
+                "response": {
+                    "text": "Oui, pour protester contre l'inaction des autres pays.",
+                    "score": 0
+                }
+            },
+            {
+                "response": {
+                    "text": "Non, je vais y participer activement pour faire avancer les choses.",
+                    "score": 0
+                }
+            }
+        ]
+    },
+    {
+        "question": "En tant que leader exemplaire, vous choisissez un moyen de transport écologique pour vous rendre à la FLOP28. Quelle est votre combinaison de transport ?",
+        "responses": [
+            {
+                "response": {
+                    "text": "En train suivi d'un covoiturage BlaBlaCar.",
+                    "score": 0.1
+                }
+            },
+            {
+                "response": {
+                    "text": "En train puis en avion.",
+                    "score": 0.2
+                }
+            },
+            {
+                "response": {
+                    "text": "En train suivi d'un trajet en bateau.",
+                    "score": 0.2
+                }
+            },
+            {
+                "response": {
+                    "text": "En train puis en hélico-gadget.",
+                    "score": 0.2
+                }
+            }
+        ]
+    },
+    {
+        "question": "Suite à une grève, votre train est annulé après une longue attente en gare, vous obligeant à manquer votre correspondance. Vous optez alors pour un jet privé. Quelle est votre réaction ?",
+        "responses": [
+            {
+                "response": {
+                    "text": "Ok",
+                    "score": 0
+                }
+            },
+            {
+                "response": {
+                    "text": "Ok, zut",
+                    "score": 0
+                }
+            },
+            {
+                "response": {
+                    "text": "C'est la vie",
+                    "score": 0
+                }
+            },
+            {
+                "response": {
+                    "text": "Je m'en fiche, j'y vais à la nage.",
+                    "score": -0.1
+                }
+            }
+        ]
+    },
+    {
+        "question": "Nerveux à l'idée d'arriver en retard à la FLOP28, vous décidez de manger pour apaiser votre stress durant le trajet. Que choisissez-vous ?",
+        "responses": [
+            {
+                "response": {
+                    "text": "Un Kinder Bueno.",
+                    "score": 0.1
+                }
+            },
+            {
+                "response": {
+                    "text": "Un paquet de M&Ms.",
+                    "score": 0.1
+                }
+            },
+            {
+                "response": {
+                    "text": "Un petit pâté de campagne local issu de l'agriculture biologique accompagné d’une biscotte.",
+                    "score": -0.1
+                }
+            },
+            {
+                "response": {
+                    "text": "Du requin.",
+                    "score": 0
+                }
+            }
+        ]
+    },
+    {
+        "question": "Après une arrivée tardive dû au mauvais temps, vous arrivez en retard à la FLOP28, attirant des regards désapprobateurs des autres chefs d'État. Vous vous précipitez pour vous asseoir et on vous demande de répondre immédiatement à une question cruciale que vous avez manquée : quelle politique énergétique adopterez-vous pour votre pays ?",
+        "responses": [
+            {
+                "response": {
+                    "text": "Investir davantage dans les énergies fossiles.",
+                    "score": 0.2
+                }
+            },
+            {
+                "response": {
+                    "text": "Effectuer une transition vers les énergies renouvelables.",
+                    "score": -0.2
+                }
+            },
+            {
+                "response": {
+                    "text": "Le nucléaire c'est bien ... non ?",
+                    "score": -0.3
+                }
+            }
+        ]
+    },
+    {
+        "question": "Dans la continuité du débat, Emmanuel Macron vous interroge sur votre stratégie agricole nationale. Quelle approche de l'agriculture envisagez-vous pour votre pays ?",
+        "responses": [
+            {
+                "response": {
+                    "text": "Soutenir l'agriculture industrielle intensive.",
+                    "score": 0.2
+                }
+            },
+            {
+                "response": {
+                    "text": "Promouvoir l'agriculture durable et biologique.",
+                    "score": -0.2
+                }
+            },
+            {
+                "response": {
+                    "text": "Je mange des big mac.",
+                    "score": 0.1
+                }
+            }
+        ]
+    },
+    {
+        "question": "Le débat se poursuit et l'attention se tourne vers votre vision en matière d'énergies renouvelables. Quelle stratégie envisagez-vous pour le développement des énergies renouvelables dans votre pays ?",
+        "responses": [
+            {
+                "response": {
+                    "text": "Proposer un plan ambitieux pour accélérer le passage aux énergies renouvelables.",
+                    "score": -0.3
+                }
+            },
+            {
+                "response": {
+                    "text": "Présenter un plan progressif et réaliste pour intégrer les énergies renouvelables.",
+                    "score": -0.1
+                }
+            }
+        ]
+    },
+    {
+        "question": "Le sujet de la déforestation s'invite dans les discussions. Quelle est votre position concernant la lutte contre la déforestation au niveau mondial ?",
+        "responses": [
+            {
+                "response": {
+                    "text": "Promouvoir un accord mondial pour arrêter la déforestation d'ici 2030.",
+                    "score": -0.3
+                }
+            },
+            {
+                "response": {
+                    "text": "Adopter une approche plus modérée qui permet une certaine déforestation pour le développement.",
+                    "score": 0.2
+                }
+            }
+        ]
+    },
+    {
+        "question": "Pendant une pause de l'assemblée, vous cherchez à vous détendre, mais des journalistes du monde entier vous attendent pour une interview. Comment abordez-vous le sujet du changement climatique avec eux ?",
+        "responses": [
+            {
+                "response": {
+                    "text": "Minimiser le problème du changement climatique et mettre l'accent sur les avantages économiques.",
+                    "score": 0.3
+                }
+            },
+            {
+                "response": {
+                    "text": "Souligner l'urgence du changement climatique et l'importance d'agir immédiatement.",
+                    "score": -0.1
+                }
+            },
+            {
+                "response": {
+                    "text": "Je ne réponds pas, il est 16h c'est l'heure du goûté.",
+                    "score": 0.1
+                }
+            }
+        ]
+    },
+    {
+        "question": "Interrogé par des journalistes sur les récentes émeutes dans votre pays liées aux demandes d'actions climatiques plus fortes, quelles sont vos intentions une fois de retour ?",
+        "responses": [
+            {
+                "response": {
+                    "text": "Ignorer les manifestations, en justifiant que votre présence à la FLOP28 est déjà une réponse à ces préoccupations.",
+                    "score": 0.1
+                }
+            },
+            {
+                "response": {
+                    "text": "Prévoir une rencontre avec les leaders des manifestants pour discuter de leurs préoccupations et demandes.",
+                    "score": -0.1
+                }
+            }
+        ]
+    },
+    {
+        "question": "De retour dans la salle avec les autres chefs d'État, la discussion se focalise sur les émissions de carbone. Quelle est votre position sur ce sujet ?",
+        "responses": [
+            {
+                "response": {
+                    "text": "Il faut les réduire drastiquement pour limiter le réchauffement climatique.",
+                    "score": -0.1
+                }
+            },
+            {
+                "response": {
+                    "text": "Proposer une réduction progressive pour équilibrer les besoins économiques et environnementaux.",
+                    "score": 0
+                }
+            },
+            {
+                "response": {
+                    "text": "Soutenir des innovations technologiques pour capturer et réduire les émissions de carbone.",
+                    "score": -0.1
+                }
+            },
+            {
+                "response": {
+                    "text": "Mettre l'accent sur l'adaptation plutôt que sur la réduction des émissions.",
+                    "score": 0.1
+                }
+            }
+        ]
+    },
+    {
+        "question": "Après avoir pris votre position sur la réduction des émissions de carbone, Kamala Harris exprime bruyamment son désaccord avec vos propositions. Comment réagissez-vous ?",
+        "responses": [
+            {
+                "response": {
+                    "text": "Maintenir fermement votre position et argumenter en faveur de l'urgence climatique.",
+                    "score": -0.1
+                }
+            },
+            {
+                "response": {
+                    "text": "Proposer un compromis avec des objectifs de réduction légèrement moins ambitieux.",
+                    "score": 0
+                }
+            },
+            {
+                "response": {
+                    "text": "Accepter de revoir les objectifs à la baisse pour garantir un accord.",
+                    "score": 0.1
+                }
+            },
+            {
+                "response": {
+                    "text": "Ratio.",
+                    "score": 0.1
+                }
+            }
+        ]
+    },
+    {
+        "question": "Le Mexique sollicite un soutien financier plus important de votre part pour sa transition écologique. Comment répondez-vous à cette demande ?",
+        "responses": [
+            {
+                "response": {
+                    "text": "Accepter et promettre un soutien financier accru.",
+                    "score": -0.2
+                }
+            },
+            {
+                "response": {
+                    "text": "Proposer une aide technique et des échanges de savoir-faire à la place.",
+                    "score": -0.1
+                }
+            },
+            {
+                "response": {
+                    "text": "Refuser la demande en mettant en avant les contraintes budgétaires de votre propre pays.",
+                    "score": 0.1
+                }
+            },
+            {
+                "response": {
+                    "text": "Frérot t'abuses.",
+                    "score": 0.2
+                }
+            }
+        ]
+    },
+    {
+        "question": "Un dirigeant propose de retarder les objectifs de déforestation zéro. Comment réagissez-vous face à cette proposition ?",
+        "responses": [
+            {
+                "response": {
+                    "text": "Refuser catégoriquement et insister sur l'importance de maintenir les objectifs actuels.",
+                    "score": -0.2
+                }
+            },
+            {
+                "response": {
+                    "text": "Proposer un plan intermédiaire avec des objectifs de réduction graduelle.",
+                    "score": -0.1
+                }
+            },
+            {
+                "response": {
+                    "text": "Accepter le report pour favoriser un consensus.",
+                    "score": 0.2
+                }
+            },
+            {
+                "response": {
+                    "text": "Encourager la recherche de solutions alternatives comme la reforestation.",
+                    "score": -0.1
+                }
+            }
+        ]
+    },
+    {
+        "question": "Alors que la FLOP28 touche à sa fin, quelle déclaration faites-vous concernant les engagements pris durant ce sommet ?",
+        "responses": [
+            {
+                "response": {
+                    "text": "Souligner l'importance de respecter et d'amplifier les engagements pris.",
+                    "score": -0.2
+                }
+            },
+            {
+                "response": {
+                    "text": "Insister sur la nécessité de flexibilité et d'ajustement des engagements en fonction du développement économique.",
+                    "score": 0.1
+                }
+            },
+            {
+                "response": {
+                    "text": "Appeler à une réévaluation régulière des progrès pour assurer la transparence et l'efficacité des actions.",
+                    "score": -0.1
+                }
+            },
+            {
+                "response": {
+                    "text": "La prochaine fois vous ferez des p'tits fours ouuuuuuu.... ??",
+                    "score": 0
+                }
+            }
+        ]
+    },
+    {
+        "question": "Après les décisions prises durant la FLOP28, quelle stratégie envisagez-vous pour mettre en œuvre ces engagements dans votre propre pays ?",
+        "responses": [
+            {
+                "response": {
+                    "text": "Lancer immédiatement un plan national ambitieux conforme aux engagements.",
+                    "score": -0.3
+                }
+            },
+            {
+                "response": {
+                    "text": "Prévoir une série de réformes graduelles en accord avec les objectifs globaux.",
+                    "score": -0.2
+                }
+            },
+            {
+                "response": {
+                    "text": "Examiner soigneusement les implications économiques avant toute mise en œuvre.",
+                    "score": 0.1
+                }
+            },
+            {
+                "response": {
+                    "text": "49.3",
+                    "score": 0.1
+                }
+            }
+        ]
+    },
+    {
+        "question": "La FLOP28 étant terminée, comment décidez-vous de rentrer dans votre pays ?",
+        "responses": [
+            {
+                "response": {
+                    "text": "En jet privé ultra-luxueux que vous venez d’acheter.",
+                    "score": 0.3
+                }
+            },
+            {
+                "response": {
+                    "text": "En yacht personnel pour une traversée plus relaxante.",
+                    "score": 0.5
+                }
+            },
+            {
+                "response": {
+                    "text": "En train solaire ultra-moderne, une prouesse technologique écologique.",
+                    "score": -0.5
+                }
+            },
+            {
+                "response": {
+                    "text": "En utilisant la téléportation, une méthode révolutionnaire et écologique (chatgpt est parti trop loin).",
+                    "score": 0
+                }
+            }
+        ]
+    },
+    {
+        "question": "Face à une escale imprévue, comment choisissez-vous de passer ce temps inattendu ?",
+        "responses": [
+            {
+                "response": {
+                    "text": "En donnant une conférence impromptue sur le climat aux autres passagers.",
+                    "score": -0.1
+                }
+            },
+            {
+                "response": {
+                    "text": "En testant des repas végans proposés par le duty-free de l'aéroport.",
+                    "score": -0.2
+                }
+            },
+            {
+                "response": {
+                    "text": "En achetant des souvenirs climatiquement neutres disponibles dans les boutiques de l'aéroport (chatgpt est vraiment parti trop loin).",
+                    "score": 0
+                }
+            },
+            {
+                "response": {
+                    "text": "En participant à une course improvisée de chariots à bagages dans l'aéroport.",
+                    "score": 0
+                }
+            }
+        ]
+    }
+]
