@@ -3,8 +3,8 @@
 .avatar{
     width: 64px;
     height: 64px;
-    border-radius: $lit-radius;
-    background-color: $color2;
+    border-radius: var(--lit-radius);
+    background-color: var(--color2);
     overflow: hidden;
 
     img{

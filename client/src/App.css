@@ -1,0 +1,141 @@
+@font-face {
+  font-family: "Satoshi";
+  src: url("./fonts/Satoshi-Variable.ttf");
+}
+@font-face {
+  font-family: "Christmas";
+  src: url("./fonts/Waving_at_Christmas.ttf");
+}
+@font-face {
+  font-family: "Cauchemard";
+  src: url("./fonts/ZAMRUDS.ttf");
+}
+@font-face {
+  font-family: "Listenbourg";
+  src: url("./fonts/PlayfairDisplay-VariableFont_wght.ttf");
+}
+:root {
+  --font: "Satoshi";
+  --big: 28px;
+  --mid: 20px;
+  --lit: 16px;
+  --text-color1: #07312F;
+  --text-color2: #9EB3B1;
+  --color1: #157067;
+  --color2: #F2F9F9;
+  --color3: #07312F;
+  --bg: #fff;
+  --big-radius: 32px;
+  --mid-radius: 24px;
+  --lit-radius: 12px;
+  --weight: 500;
+  --big-padding: 64px;
+  --mid-padding: 32px;
+  --lit-padding: 16px;
+  --lg-container: 1200px;
+  --container: 600px;
+  --big-margin: 32px;
+  --mid-margin: 24px;
+  --lit-margin: 16px;
+  --absolute: 64px;
+  --max-width: calc(100% - 512px);
+  --opacity: 0.8;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: var(--weight);
+  color: var(--text-color1);
+  background: var(--bg);
+}
+
+* {
+  outline: none;
+  font-family: var(--font);
+  box-sizing: border-box;
+  color: var(--text-color1);
+}
+
+p {
+  font-size: var(--lit);
+  margin: 0;
+  font-weight: var(--weight);
+}
+
+h2 {
+  font-size: var(--mid);
+  margin: 0;
+  font-weight: var(--weight);
+}
+
+h1 {
+  font-size: var(--big);
+  margin: 0;
+  font-weight: calc(var(--weight) + 100);
+}
+
+button {
+  background-color: var(--color2);
+  border-radius: var(--big-radius);
+  padding: var(--mid-padding);
+  font-size: var(--lit);
+  border: 0;
+  color: var(--text-color1);
+  cursor: pointer;
+  transition: ease 0.2s;
+}
+button:hover {
+  scale: 1.02;
+}
+button.next {
+  position: absolute;
+  bottom: var(--absolute);
+  right: var(--absolute);
+}
+
+input {
+  background-color: var(--color2);
+  border-radius: var(--mid-radius);
+  padding: var(--mid-padding);
+  font-size: var(--lit);
+  border: 0;
+  color: var(--text-color1);
+  width: 100%;
+}
+
+.lg-container {
+  width: var(--lg-container);
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.container {
+  width: var(--container);
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.logo {
+  position: fixed;
+  top: var(--absolute);
+  left: var(--absolute);
+  z-index: 1;
+}
+
+.infos {
+  position: fixed;
+  bottom: var(--absolute);
+  left: var(--absolute);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--mid-margin);
+  z-index: 1;
+}
+
+svg.icon path {
+  fill: var(--color3);
+}/*# sourceMappingURL=App.css.map */

@@ -1,5 +1,7 @@
 [
     {
+        "pnj" : null,
+        "image" : "bureau.svg",
         "question": "Félicitations, en tant que grand chef d'État, envisagez-vous de boycotter la FLOP28 pour marquer votre désaccord ?",
         "responses": [
             {
@@ -17,6 +19,8 @@
         ]
     },
     {
+        "pnj" : "gare.svg",
+        "image" : "train_station.svg",
         "question": "En tant que leader exemplaire, vous choisissez un moyen de transport écologique pour vous rendre à la FLOP28. Quelle est votre combinaison de transport ?",
         "responses": [
             {
@@ -46,6 +50,8 @@
         ]
     },
     {
+        "pnj" : "gare.svg",
+        "image" : "train_station.svg",
         "question": "Suite à une grève, votre train est annulé après une longue attente en gare, vous obligeant à manquer votre correspondance. Vous optez alors pour un jet privé. Quelle est votre réaction ?",
         "responses": [
             {
@@ -75,6 +81,8 @@
         ]
     },
     {
+        "pnj" : null,
+        "image" : "aeroport.svg",
         "question": "Nerveux à l'idée d'arriver en retard à la FLOP28, vous décidez de manger pour apaiser votre stress durant le trajet. Que choisissez-vous ?",
         "responses": [
             {
@@ -104,6 +112,8 @@
         ]
     },
     {
+        "pnj" : "people3.svg",
+        "image" : "couloir.svg",
         "question": "Après une arrivée tardive dû au mauvais temps, vous arrivez en retard à la FLOP28, attirant des regards désapprobateurs des autres chefs d'État. Vous vous précipitez pour vous asseoir et on vous demande de répondre immédiatement à une question cruciale que vous avez manquée : quelle politique énergétique adopterez-vous pour votre pays ?",
         "responses": [
             {
@@ -127,6 +137,8 @@
         ]
     },
     {
+        "pnj" : "macron.svg",
+        "image" : "conf3.svg",
         "question": "Dans la continuité du débat, Emmanuel Macron vous interroge sur votre stratégie agricole nationale. Quelle approche de l'agriculture envisagez-vous pour votre pays ?",
         "responses": [
             {
@@ -150,6 +162,8 @@
         ]
     },
     {
+        "pnj" : null,
+        "image" : "conf2.svg",
         "question": "Le débat se poursuit et l'attention se tourne vers votre vision en matière d'énergies renouvelables. Quelle stratégie envisagez-vous pour le développement des énergies renouvelables dans votre pays ?",
         "responses": [
             {
@@ -167,6 +181,8 @@
         ]
     },
     {
+        "pnj" : null,
+        "image" : "conf.svg",
         "question": "Le sujet de la déforestation s'invite dans les discussions. Quelle est votre position concernant la lutte contre la déforestation au niveau mondial ?",
         "responses": [
             {
@@ -184,6 +200,8 @@
         ]
     },
     {
+        "pnj" : "poeple2.svg",
+        "image" : "couloir.svg",
         "question": "Pendant une pause de l'assemblée, vous cherchez à vous détendre, mais des journalistes du monde entier vous attendent pour une interview. Comment abordez-vous le sujet du changement climatique avec eux ?",
         "responses": [
             {
@@ -207,6 +225,8 @@
         ]
     },
     {
+        "pnj" : "people2.svg",
+        "image" : "couloir.svg",
         "question": "Interrogé par des journalistes sur les récentes émeutes dans votre pays liées aux demandes d'actions climatiques plus fortes, quelles sont vos intentions une fois de retour ?",
         "responses": [
             {
@@ -224,6 +244,8 @@
         ]
     },
     {
+        "pnj" : null,
+        "image" : "conf3.svg",
         "question": "De retour dans la salle avec les autres chefs d'État, la discussion se focalise sur les émissions de carbone. Quelle est votre position sur ce sujet ?",
         "responses": [
             {
@@ -253,6 +275,8 @@
         ]
     },
     {
+        "pnj" : "usa.svg",
+        "image" : "conf.svg",
         "question": "Après avoir pris votre position sur la réduction des émissions de carbone, Kamala Harris exprime bruyamment son désaccord avec vos propositions. Comment réagissez-vous ?",
         "responses": [
             {
@@ -282,6 +306,8 @@
         ]
     },
     {
+        "pnj" : "mexique.svg",
+        "image" : "conf2.svg",
         "question": "Le Mexique sollicite un soutien financier plus important de votre part pour sa transition écologique. Comment répondez-vous à cette demande ?",
         "responses": [
             {
@@ -311,6 +337,8 @@
         ]
     },
     {
+        "pnj" : "dirigeant.svg",
+        "image" : "conf3.svg",
         "question": "Un dirigeant propose de retarder les objectifs de déforestation zéro. Comment réagissez-vous face à cette proposition ?",
         "responses": [
             {
@@ -340,6 +368,8 @@
         ]
     },
     {
+        "pnj" : null,
+        "image" : "conf.svg",
         "question": "Alors que la FLOP28 touche à sa fin, quelle déclaration faites-vous concernant les engagements pris durant ce sommet ?",
         "responses": [
             {
@@ -369,6 +399,8 @@
         ]
     },
     {
+        "pnj" : null,
+        "image" : "conf2.svg",
         "question": "Après les décisions prises durant la FLOP28, quelle stratégie envisagez-vous pour mettre en œuvre ces engagements dans votre propre pays ?",
         "responses": [
             {
@@ -398,6 +430,8 @@
         ]
     },
     {
+        "pnj" : "gare.svg",
+        "image" : "aeroport.svg",
         "question": "La FLOP28 étant terminée, comment décidez-vous de rentrer dans votre pays ?",
         "responses": [
             {
@@ -427,6 +461,8 @@
         ]
     },
     {
+        "pnj" : "gare.svg",
+        "image" : "aeroport.svg",
         "question": "Face à une escale imprévue, comment choisissez-vous de passer ce temps inattendu ?",
         "responses": [
             {

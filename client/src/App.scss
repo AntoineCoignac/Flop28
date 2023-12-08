@@ -1,72 +1,85 @@
 @import "./index.scss";
 
 p{
-    font-size: $lit;
+    font-size: var(--lit);
     margin: 0;
-    font-weight: $weight;
+    font-weight: var(--weight);
 }
 
 h2{
-    font-size: $mid;
+    font-size: var(--mid);
     margin: 0;
-    font-weight: $weight;
+    font-weight: var(--weight);
 }
 
 h1{
-    font-size: $big;
+    font-size: var(--big);
     margin: 0;
-    font-weight: calc($weight + 100);
+    font-weight: calc(var(--weight) + 100);
 }
 
 button{
-    background-color: $color2;
-    border-radius: $big-radius;
-    padding: $mid-padding;
-    font-size: $lit;
+    background-color: var(--color2);
+    border-radius: var(--big-radius);
+    padding: var(--mid-padding);
+    font-size: var(--lit);
     border: 0;
-    color: $text-color1;
+    color: var(--text-color1);
     cursor: pointer;
     transition: ease 0.2s;
 
     &:hover{
         scale: 1.02;
     }
+
+    &.next{
+        position: absolute;
+        bottom: var(--absolute);
+        right: var(--absolute);
+    }
     
 }
 
 input{
-    background-color: $color2;
-    border-radius: $big-radius;
-    padding: $big-padding;
-    font-size: $lit;
+    background-color: var(--color2);
+    border-radius: var(--mid-radius);
+    padding: var(--mid-padding);
+    font-size: var(--lit);
     border: 0;
-    color: $text-color1;
+    color: var(--text-color1);
+    width: 100%;
 }
 
 .lg-container{
-    width: $lg-container;
-    max-width : $max-width;
+    width: var(--lg-container);
+    max-width : var(--max-width);
     margin: 0 auto;
 }
 
 .container{
-    width: $container;
-    max-width : $max-width;
+    width: var(--container);
+    max-width : var(--max-width);
     margin: 0 auto;
 }
 
 .logo{
     position: fixed;
-    top: $absolute;
-    left: $absolute;
+    top: var(--absolute);
+    left: var(--absolute);
+    z-index: 1;
 }
 
 .infos{
     position: fixed;
-    bottom: $absolute;
-    left: $absolute;
+    bottom: var(--absolute);
+    left: var(--absolute);
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: $mid-margin;
+    gap: var(--mid-margin);
+    z-index: 1;
+}
+
+svg.icon path{
+    fill: var(--color3);
 }

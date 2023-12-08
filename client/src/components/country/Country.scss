@@ -1,0 +1,9 @@
+@import "../../index.scss";
+
+.country{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: var(--mid-margin);
+}

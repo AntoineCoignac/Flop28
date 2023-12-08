@@ -2,22 +2,18 @@
   font-family: "Satoshi";
   src: url("./fonts/Satoshi-Variable.ttf");
 }
-
 @font-face {
   font-family: "Christmas";
   src: url("./fonts/Waving_at_Christmas.ttf");
 }
-
 @font-face {
   font-family: "Cauchemard";
   src: url("./fonts/ZAMRUDS.ttf");
 }
-
 @font-face {
   font-family: "Listenbourg";
   src: url("./fonts/PlayfairDisplay-VariableFont_wght.ttf");
 }
-
 :root {
   --font: "Satoshi";
   --big: 28px;
@@ -46,7 +42,6 @@
   --opacity: 0.8;
 }
 
-
 body {
   margin: 0;
   font-family: var(--font);
@@ -57,12 +52,19 @@ body {
   background: var(--bg);
 }
 
-*{
+* {
   outline: none;
   font-family: var(--font);
   box-sizing: border-box;
   color: var(--text-color1);
 }
 
-
-
+.question {
+  background-color: var(--color2);
+  border-radius: var(--big-radius);
+  padding: var(--mid-padding);
+  font-size: var(--lit);
+  border: 0;
+  color: var(--text-color1);
+  width: 100%;
+}/*# sourceMappingURL=Question.css.map */

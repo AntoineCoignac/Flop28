@@ -4,5 +4,22 @@
     width: 32px;
     height: 256px;
 
-    .leaf{}
+    background-color: var(--color2);
+    border-radius: var(--lit-radius);
+
+    display: flex;
+    align-items: flex-end;
+
+    span{
+        display: block;
+        width: 32px;
+        background-color: var(--color1);
+        border-radius: 0 0 var(--lit-radius) var(--lit-radius);
+        transition: ease 0.2s;
+    }
+
+    .leaf{
+        position: absolute;
+        bottom: calc(100% + var(--lit-margin));
+    }
 }

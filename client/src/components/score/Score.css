@@ -2,22 +2,18 @@
   font-family: "Satoshi";
   src: url("./fonts/Satoshi-Variable.ttf");
 }
-
 @font-face {
   font-family: "Christmas";
   src: url("./fonts/Waving_at_Christmas.ttf");
 }
-
 @font-face {
   font-family: "Cauchemard";
   src: url("./fonts/ZAMRUDS.ttf");
 }
-
 @font-face {
   font-family: "Listenbourg";
   src: url("./fonts/PlayfairDisplay-VariableFont_wght.ttf");
 }
-
 :root {
   --font: "Satoshi";
   --big: 28px;
@@ -46,7 +42,6 @@
   --opacity: 0.8;
 }
 
-
 body {
   margin: 0;
   font-family: var(--font);
@@ -57,12 +52,29 @@ body {
   background: var(--bg);
 }
 
-*{
+* {
   outline: none;
   font-family: var(--font);
   box-sizing: border-box;
   color: var(--text-color1);
 }
 
-
-
+.score {
+  width: 32px;
+  height: 256px;
+  background-color: var(--color2);
+  border-radius: var(--lit-radius);
+  display: flex;
+  align-items: flex-end;
+}
+.score span {
+  display: block;
+  width: 32px;
+  background-color: var(--color1);
+  border-radius: 0 0 var(--lit-radius) var(--lit-radius);
+  transition: ease 0.2s;
+}
+.score .leaf {
+  position: absolute;
+  bottom: calc(100% + var(--lit-margin));
+}/*# sourceMappingURL=Score.css.map */
