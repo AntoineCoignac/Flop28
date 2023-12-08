@@ -1,0 +1,15 @@
+@import "../../index.scss";
+
+.avatar{
+    width: 64px;
+    height: 64px;
+    border-radius: $lit-radius;
+    background-color: $color2;
+    overflow: hidden;
+
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}

@@ -19,9 +19,9 @@
 }
 
 $font : "Satoshi";
-$big : 48px;
-$mid : 32px;
-$lit : 24px;
+$big : 28px;
+$mid : 20px;
+$lit : 16px;
 $text-color1 : #07312F;
 $text-color2 : #9EB3B1;
 $color1 : #157067;
@@ -39,13 +39,13 @@ $lg-container : 1200px;
 $container : 600px;
 $big-margin : 32px;
 $mid-margin : 24px;
-$lit-margin : 12px;
+$lit-margin : 16px;
 $absolute : 64px;
 $max-width : calc(100% - 128px);
 
 body {
   margin: 0;
-  font-family: "Satoshi";
+  font-family: $font;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: $weight;
@@ -54,6 +54,8 @@ body {
 
 *{
   outline: none;
+  font-family: $font;
+  box-sizing: border-box;
 }
 
 

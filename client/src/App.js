@@ -4,6 +4,7 @@ import Slide from "./components/slide/Slide";
 import Score from "./components/score/Score";
 import Avatar from "./components/avatar/Avatar";
 import { useState } from "react";
+import questions from "./assets/questions.json";
 
 function App() {
   const [user, setUser] = useState({
@@ -14,30 +15,16 @@ function App() {
     score : 13.7
   });
 
-  const questions = [
-    {
-      question : "",
-      responses : [
-        {
-          response : {
-            text : "",
-            score : 0
-          }
-        }
-      ]
-    },
-  ]
-
   return (
     <div className="App">
       <div className="logo">
         <img src={logo} alt="logo" />
       </div>
       <div className="infos">
-        <Score />
+        <Score score={user.score}/>
         <Avatar />
       </div>
-      <Slide />
+      <Slide item={questions[0]} />
     </div>
   );
 }

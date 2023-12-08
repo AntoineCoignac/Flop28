@@ -21,10 +21,17 @@ h1{
 button{
     background-color: $color2;
     border-radius: $big-radius;
-    padding: $big-padding;
+    padding: $mid-padding;
     font-size: $lit;
     border: 0;
     color: $text-color1;
+    cursor: pointer;
+    transition: ease 0.2s;
+
+    &:hover{
+        scale: 1.02;
+    }
+    
 }
 
 input{
@@ -48,3 +55,18 @@ input{
     margin: 0 auto;
 }
 
+.logo{
+    position: fixed;
+    top: $absolute;
+    left: $absolute;
+}
+
+.infos{
+    position: fixed;
+    bottom: $absolute;
+    left: $absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: $mid-margin;
+}

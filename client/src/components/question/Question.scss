@@ -1,0 +1,12 @@
+@import "../../index.scss";
+
+.question{
+    background-color: $color2;
+    border-radius: $big-radius;
+    padding: $mid-padding;
+    font-size: $lit;
+    border: 0;
+    color: $text-color1;
+    width: 100%;
+}
+
